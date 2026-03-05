@@ -1,0 +1,70 @@
+body{
+    font: italic small-caps bold 16px/1.5 "Georgia", serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    background: rgb(204, 197, 197);
+    padding: 25px;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input{
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1e9b95;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1b7888;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background: #eee;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn{
+    background-color: rgb(192, 15, 15);
+    color: white;
+}
+
+.contador{
+    text-align: center;
+    font-weight: bold;
+}
